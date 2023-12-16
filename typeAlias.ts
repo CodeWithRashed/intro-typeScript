@@ -23,7 +23,27 @@ let user: MongoUser = {
     email: "string"
 }
 
-user._id = "12"
+//Combine Card Type
+
+type CardHolderName = {
+    name: string
+}
+
+
+type CardNumber = {
+    number: number
+}
+
+type CardDetails = CardHolderName & CardNumber & {
+    cvv: number
+}
+
+
+const cardDetails: CardDetails = {
+name: "Rashed",
+number: 4242,
+cvv: 232
+}
 
 
 export{}
