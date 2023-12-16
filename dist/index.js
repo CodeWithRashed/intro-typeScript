@@ -11,3 +11,20 @@ class User {
     }
 }
 const activeUser = new User("Rashed", "Rashed@gmail.com", 202);
+//Generics types
+function GenericsFunc(val) {
+    return val;
+}
+function genericsTwo(val) {
+    return "ab";
+}
+function genericsThree(val) {
+    return val;
+}
+function getDatabaseProducts(products) {
+    return products[4];
+}
+//Generics using arrow function!
+const getProductData = (product) => {
+    return product[1];
+};
