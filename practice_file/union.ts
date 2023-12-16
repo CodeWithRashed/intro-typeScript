@@ -21,3 +21,5 @@ const combineArray:(string |number)[] = ["1", 1]
 let userRole: "Admin"| "User" | "Mod"
 
 userRole = "Mod"
+
+export {}
